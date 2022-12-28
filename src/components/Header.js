@@ -3,7 +3,8 @@ import './Header.css'
 
 function Header() {
     return (
-        <div className="header_background_color">
+        <div className="header_bg_gray_color">
+            <div className="header_bg_white_color"></div>
             <div className='header'>
                 <h2 className='header_title'>
                     Hello <br />

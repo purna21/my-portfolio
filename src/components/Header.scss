@@ -1,5 +1,5 @@
 // Variables
-$header_bg: #e8e8e8;
+$header_bg_gray_color: #e8e8e879;
 $header_title: #4d4d4d;
 $header_cta: #FF6392;
 $header_cta_hover: #e1557f;
@@ -7,14 +7,26 @@ $header_social_links: #000000;
 
 
 
-.header_background_color {
-    background-color: $header_bg;
+.header_bg_gray_color {
+    background-color: $header_bg_gray_color;
+    height: 75vh;
+    position: relative;
+}
+
+.header_bg_white_color {
+    width: 19%;
+    height: 100%;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .header {
     // background-color: aqua;
     width: 100%;
-    height: 75vh;
+    // height: 75vh;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -26,6 +38,7 @@ $header_social_links: #000000;
 .header_title {
     font-size: 4.2rem;
     font-weight: bold;
+    letter-spacing: .5px;
     margin-bottom: 20px;
     color: $header_title;
 }
