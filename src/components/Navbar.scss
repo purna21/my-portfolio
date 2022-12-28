@@ -1,4 +1,42 @@
-img {
-    width: 100px;
-    height: 100px;
+// Variables
+$nav_links_gray: #151515;
+$nav_links_hover: #FF6392;
+
+
+
+.navbar {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 7%;
+    // border: 1px solid black;
+}
+
+
+.navbar_logo {
+    width: 35px;
+    height: 35px;
+}
+
+.navbar_links {
+    // border: 1px solid black;
+
+    .navbar_link:link,
+    .navbar_link:visited {
+        margin-left: 30px;
+        text-decoration: none;
+        font-family: 'Sen', sans-serif;
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: $nav_links_gray;
+        cursor: pointer;
+    }
+
+    .navbar_link:hover,
+    .navbar_link:active {
+        color: $nav_links_hover;
+        cursor: pointer;
+    }
 }

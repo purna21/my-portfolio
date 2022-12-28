@@ -1,0 +1,69 @@
+// Variables
+$header_bg: #e8e8e8;
+$header_title: #4d4d4d;
+$header_cta: #FF6392;
+$header_cta_hover: #e1557f;
+$header_social_links: #000000;
+
+
+
+.header_background_color {
+    background-color: $header_bg;
+}
+
+.header {
+    // background-color: aqua;
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 45px 15%;
+    font-family: 'Sen', sans-serif;
+    position: relative;
+}
+
+.header_title {
+    font-size: 4.2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: $header_title;
+}
+
+.header_cta:link,
+.header_cta:visited {
+    text-decoration: none;
+    width: fit-content;
+    background-color: $header_cta;
+    font-size: 1.3rem;
+    letter-spacing: .5px;
+    color: white;
+    padding: 10px 15px;
+    margin-bottom: 25px;
+}
+
+.header_cta:hover,
+.header_cta:active {
+    background-color: $header_cta_hover;
+}
+
+.header_social_links {
+    display: flex;
+    position: absolute;
+    bottom: 40%;
+    right: 50%;
+
+    .header_social_link:link,
+    .header_social_link:visited {
+        font-size: 1.2rem;
+        text-decoration: none;
+        margin-right: 10px;
+        padding: 10px;
+        color: $header_social_links;
+    }
+
+    .header_social_link:hover,
+    .header_social_link:active {
+        color: $header_cta_hover;
+    }
+}

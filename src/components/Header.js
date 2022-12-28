@@ -3,8 +3,20 @@ import './Header.css'
 
 function Header() {
     return (
-        <div className='header'>
-
+        <div className="header_background_color">
+            <div className='header'>
+                <h2 className='header_title'>
+                    Hello <br />
+                    I'm Purnachandra <br />
+                    Bandaru
+                </h2>
+                <a className='header_cta' href="/">Read My Resume</a>
+                <div className="header_social_links">
+                    <a className='header_social_link' href="/">.In</a>
+                    <a className='header_social_link' href="/">.Md</a>
+                    <a className='header_social_link' href="/">.Ig</a>
+                </div>
+            </div>
         </div>
     )
 }
