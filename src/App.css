@@ -1,1 +1,13 @@
-/*# sourceMappingURL=App.css.map */
+.project_container {
+  font-family: "Sen", sans-serif;
+  width: 90%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: 0 auto;
+  padding: 40px 150px;
+}
+.project_container h2 {
+  font-size: 2.3rem;
+  margin-bottom: 25px;
+}/*# sourceMappingURL=App.css.map */
