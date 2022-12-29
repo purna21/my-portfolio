@@ -3,15 +3,22 @@ import Header from './components/Header';
 import Navbar from './components/Navbar';
 import Project from './components/Project';
 import WikipediaImg from './Wikipedia.png';
+import About from './About';
+
 
 
 
 function App() {
   return (
     <div className="App">
+      {/* Navbar */}
       <Navbar />
+      {/* Header */}
       <Header />
-      <div className='project_container'>
+      {/* About */}
+      <About />
+      {/* Project */}
+      <div className='project_container' id='project'>
         <h2>Projects</h2>
         <Project
           title='Wikipedia Search Engine'

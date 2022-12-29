@@ -1,0 +1,18 @@
+.about_container {
+  font-family: "Sen", sans-serif;
+  width: 90%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: 0 auto;
+  padding: 50px 150px;
+}
+.about_container .about {
+  font-size: 3.2rem;
+  margin-bottom: 25px;
+  color: #4d4d4d;
+}
+.about_container .about_desc {
+  font-size: 14px;
+  line-height: 18px;
+}/*# sourceMappingURL=About.css.map */

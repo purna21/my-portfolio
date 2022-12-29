@@ -9,7 +9,7 @@ function Navbar() {
         <div className='navbar'>
             <a href="/"><img className='navbar_logo' src={Logo} alt="logo" /></a>
             <nav className="navbar_links">
-                <a href="/" className="navbar_link">Projects</a>
+                <a href="#project" className="navbar_link">Projects</a>
                 <a href="/" className="navbar_link">About</a>
                 <a href="/" className="navbar_link">Contact</a>
             </nav>
