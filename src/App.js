@@ -2,6 +2,8 @@ import './App.css';
 import Header from './components/Header';
 import Navbar from './components/Navbar';
 import Project from './components/Project';
+import WikipediaImg from './Wikipedia.png';
+
 
 
 function App() {
@@ -12,26 +14,20 @@ function App() {
       <div className='project_container'>
         <h2>Projects</h2>
         <Project
-          title='Project1'
-          desc='Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Dicta, accusamus saepe ut animi eligendi adipisci delectus
-                    mollitia eum omnis exercitationem esse nisi! Nihil tenetur
-                    excepturi rem perferendis! Soluta, cumque magni.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Dicta, accusamus saepe ut animi eligendi adipisci delectus
-                    mollitia eum omnis exercitationem.'
-          imageUrl='https://media.istockphoto.com/id/1224500457/photo/programming-code-abstract-technology-background-of-software-developer-and-computer-script.jpg?s=612x612&w=0&k=20&c=nHMypkMTU1HUUW85Zt0Ff7MDbq17n0eVeXaoM9Knt4Q='
+          title='Wikipedia Search Engine'
+          desc='A redesigned Wikipedia Search Engine website, built using technologies
+          like Html, Css & Vanilla Javascript. This website fetches the data from an 
+          Rest Api and displays the search results.'
+          imageUrl={WikipediaImg}
+          projectUrl='https://purna21.github.io/wikipedia-search-engine/'
         />
         <Project
-          title='Project2'
-          desc='Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Dicta, accusamus saepe ut animi eligendi adipisci delectus
-                    mollitia eum omnis exercitationem esse nisi! Nihil tenetur
-                    excepturi rem perferendis! Soluta, cumque magni.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Dicta, accusamus saepe ut animi eligendi adipisci delectus
-                    mollitia eum omnis exercitationem.'
-          imageUrl='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPviQbCTGhgKaUNhkg_uYtTu9Qu0x6I1IS2Q&usqp=CAU'
+          title='Random Password Generator'
+          desc='This website generates a Random Password everytime the user feel like creating
+          one. User can select the password length ranging from [0 - 25]. Built using technologies like
+          Html, Css & Javascript.'
+          imageUrl='https://img.freepik.com/premium-vector/3d-locked-password-field-isolated-white-background-icon-web-app-3d-render-vector-illustration_165488-3691.jpg'
+          projectUrl='https://purna21.github.io/random-password-generator/'
           order='1' />
       </div>
     </div>

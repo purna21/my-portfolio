@@ -7,7 +7,7 @@ import Logo from '../Logo.png'
 function Navbar() {
     return (
         <div className='navbar'>
-            <img className='navbar_logo' src={Logo} alt="logo" />
+            <a href="/"><img className='navbar_logo' src={Logo} alt="logo" /></a>
             <nav className="navbar_links">
                 <a href="/" className="navbar_link">Projects</a>
                 <a href="/" className="navbar_link">About</a>
