@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Project from './components/Project';
 import WikipediaImg from './Wikipedia.png';
 import About from './About';
+import Skills from './components/Skills';
 
 
 
@@ -17,6 +18,8 @@ function App() {
       <Header />
       {/* About */}
       <About />
+      {/* Skills */}
+      <Skills />
       {/* Project */}
       <div className='project_container' id='project'>
         <h2>Projects</h2>
