@@ -1,0 +1,14 @@
+// Variables
+$footer_bg_gray_color: #e8e8e879;
+
+
+.footer {
+    font-family: 'Sen', sans-serif;
+    text-align: center;
+    padding: 30px;
+    background-color: $footer_bg_gray_color;
+
+    p {
+        font-size: 13px;
+    }
+}

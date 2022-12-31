@@ -6,6 +6,7 @@ import WikipediaImg from './Wikipedia.png';
 import About from './About';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
+import Footer from './Footer';
 
 
 
@@ -44,6 +45,7 @@ function App() {
       {/* Contact */}
       <Contact />
       {/* Footer */}
+      <Footer />
     </div>
   );
 }
