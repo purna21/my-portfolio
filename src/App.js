@@ -5,6 +5,7 @@ import Project from './components/Project';
 import WikipediaImg from './Wikipedia.png';
 import About from './About';
 import Skills from './components/Skills';
+import Contact from './components/Contact';
 
 
 
@@ -40,6 +41,9 @@ function App() {
           projectUrl='https://purna21.github.io/random-password-generator/'
           order='1' />
       </div>
+      {/* Contact */}
+      <Contact />
+      {/* Footer */}
     </div>
   );
 }

@@ -1,0 +1,35 @@
+// Variables
+$contact-pink-bg: #FFE8E8;
+$Contact_title_gray: #4d4d4d;
+
+.contact-pink-bg {
+    height: fit-content;
+    background-color: $contact-pink-bg;
+}
+
+.contact {
+    font-family: 'Sen', sans-serif;
+    width: 90%;
+    height: fit-content;
+    margin: 0 auto;
+    padding: 50px 150px;
+
+    h2 {
+        font-size: 3.2rem;
+        margin-bottom: 25px;
+        color: $Contact_title_gray;
+    }
+}
+
+.contact-details {
+    h3 {
+        font-size: 2rem;
+        letter-spacing: .5px;
+        margin: 7px 0;
+        color: $Contact_title_gray;
+    }
+
+    p {
+        font-size: 15px;
+    }
+}

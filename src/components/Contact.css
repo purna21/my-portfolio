@@ -1,0 +1,31 @@
+.contact-pink-bg {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: #FFE8E8;
+}
+
+.contact {
+  font-family: "Sen", sans-serif;
+  width: 90%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: 0 auto;
+  padding: 50px 150px;
+}
+.contact h2 {
+  font-size: 3.2rem;
+  margin-bottom: 25px;
+  color: #4d4d4d;
+}
+
+.contact-details h3 {
+  font-size: 2rem;
+  letter-spacing: 0.5px;
+  margin: 7px 0;
+  color: #4d4d4d;
+}
+.contact-details p {
+  font-size: 15px;
+}/*# sourceMappingURL=Contact.css.map */
