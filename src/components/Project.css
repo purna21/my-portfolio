@@ -45,4 +45,29 @@
 .project_details .project_desc {
   font-size: 14px;
   line-height: 18px;
+}
+
+@media screen and (width <= 680px) {
+  .project {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+  }
+  .project .project_img_container {
+    width: 100%;
+    order: 0 !important;
+  }
+  .project .project_img_container .project_img {
+    width: 100%;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+  .project_details {
+    padding: 10px 0;
+  }
+  .project_details .project_desc {
+    line-height: 2rem;
+    padding-bottom: 10px;
+  }
 }/*# sourceMappingURL=Project.css.map */

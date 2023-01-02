@@ -35,3 +35,27 @@ $Skills_title_gray: #4d4d4d;
     height: 50px;
     margin-right: 50px;
 }
+
+
+
+// Media Queries
+@media screen and (width <=680px) {
+    .skills {
+        width: 100%;
+        // flex-wrap: wrap;
+        padding: 10px 25px;
+    }
+
+    .skill_details {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20px 0;
+
+    }
+
+    .skill_details img {
+        height: 38px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+}

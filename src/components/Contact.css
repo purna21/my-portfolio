@@ -28,4 +28,11 @@
 }
 .contact-details p {
   font-size: 15px;
+}
+
+@media screen and (width <= 680px) {
+  .contact {
+    width: 100%;
+    padding: 30px 25px;
+  }
 }/*# sourceMappingURL=Contact.css.map */

@@ -71,7 +71,7 @@
   color: #e1557f;
 }
 
-@media screen and (width <= 500px) {
+@media screen and (width <= 680px) {
   .header_bg_gray_color {
     width: 100%;
   }

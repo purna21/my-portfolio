@@ -11,4 +11,11 @@
   font-size: 3.2rem;
   margin-bottom: 25px;
   color: #4d4d4d;
+}
+
+@media screen and (width <= 680px) {
+  .project_container {
+    width: 100%;
+    padding: 10px 25px;
+  }
 }/*# sourceMappingURL=App.css.map */

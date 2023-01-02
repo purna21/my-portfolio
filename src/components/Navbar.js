@@ -16,8 +16,8 @@ function Navbar() {
             </nav>
             {/* Menu */}
             <div className="menu_container">
-                <label htmlFor="menu"><i class="fa-solid fa-circle-chevron-down menu"></i></label>
                 <input type="checkbox" id='menu' />
+                <label htmlFor="menu"><i class="fa-solid fa-circle-chevron-down menu"></i></label>
             </div>
         </div>
     )

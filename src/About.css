@@ -15,4 +15,16 @@
 .about_container .about_desc {
   font-size: 14px;
   line-height: 18px;
+}
+
+@media screen and (width <= 680px) {
+  .about_container {
+    width: 100%;
+    padding: 30px 25px;
+  }
+  .about_container .about_desc {
+    line-height: 2rem;
+    margin-bottom: 10px;
+    color: #4d4d4d;
+  }
 }/*# sourceMappingURL=About.css.map */

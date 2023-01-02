@@ -26,4 +26,21 @@
 .skill_details img {
   height: 50px;
   margin-right: 50px;
+}
+
+@media screen and (width <= 680px) {
+  .skills {
+    width: 100%;
+    padding: 10px 25px;
+  }
+  .skill_details {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 0;
+  }
+  .skill_details img {
+    height: 38px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
 }/*# sourceMappingURL=Skills.css.map */
