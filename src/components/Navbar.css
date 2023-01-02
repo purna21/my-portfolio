@@ -26,4 +26,23 @@
 .navbar_links .navbar_link:active {
   color: #FF6392;
   cursor: pointer;
+}
+
+.menu_container input {
+  display: none;
+}
+
+.menu {
+  font-size: 17px;
+  color: #FF6392;
+  transform: rotate(180deg);
+}
+
+@media screen and (width <= 500px) {
+  .navbar {
+    width: 100%;
+  }
+  .navbar_links {
+    display: none;
+  }
 }/*# sourceMappingURL=Navbar.css.map */

@@ -40,3 +40,30 @@ $nav_links_hover: #FF6392;
         cursor: pointer;
     }
 }
+
+// Menu
+.menu_container input {
+    display: none;
+}
+
+.menu {
+    font-size: 17px;
+    color: $nav_links_hover;
+    transform: rotate(180deg);
+}
+
+
+
+
+
+// Media Queries
+@media screen and (width <=500px) {
+    .navbar {
+        width: 100%;
+    }
+
+    .navbar_links {
+        display: none;
+    }
+
+}
