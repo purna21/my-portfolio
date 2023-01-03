@@ -37,6 +37,7 @@
   color: #FF6392;
   transform: rotate(180deg);
   transition: 0.3s linear;
+  display: none;
 }
 
 .menu_container input[type=checkbox]:checked + label > .menu {
@@ -48,6 +49,14 @@
     width: 100%;
   }
   .navbar_links {
+    display: none;
+  }
+  .menu {
+    display: block;
+  }
+}
+@media screen and (width >= 681px) {
+  .menu_container {
     display: none;
   }
 }/*# sourceMappingURL=Navbar.css.map */
