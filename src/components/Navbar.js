@@ -14,10 +14,16 @@ function Navbar() {
                 <a href="#project" className="navbar_link">Projects</a>
                 <a href="#contact" className="navbar_link">Contact</a>
             </nav>
-            {/* Menu */}
+            {/* Menu for smaller screens */}
             <div className="menu_container">
                 <input type="checkbox" id='menu' />
                 <label htmlFor="menu"><i class="fa-solid fa-circle-chevron-down menu"></i></label>
+                <nav className="menu_links">
+                    <a href="#about" className="menu_link">About</a>
+                    <a href="#skills" className="menu_link">Skills</a>
+                    <a href="#project" className="menu_link">Projects</a>
+                    <a href="#contact" className="menu_link">Contact</a>
+                </nav>
             </div>
         </div>
     )
