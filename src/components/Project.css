@@ -47,7 +47,7 @@
   line-height: 18px;
 }
 
-@media screen and (width <= 680px) {
+@media screen and (width <= 1044px) {
   .project {
     display: flex;
     flex-direction: column;
