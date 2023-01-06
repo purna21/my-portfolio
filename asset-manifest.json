@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/%7Bmy-portfolio%7D/static/css/main.5cb8d641.css",
+    "main.js": "/%7Bmy-portfolio%7D/static/js/main.e49768fb.js",
+    "static/media/Wikipedia.png": "/%7Bmy-portfolio%7D/static/media/Wikipedia.66f5686fe8baa80946c4.png",
+    "index.html": "/%7Bmy-portfolio%7D/index.html",
+    "main.5cb8d641.css.map": "/%7Bmy-portfolio%7D/static/css/main.5cb8d641.css.map",
+    "main.e49768fb.js.map": "/%7Bmy-portfolio%7D/static/js/main.e49768fb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5cb8d641.css",
+    "static/js/main.e49768fb.js"
+  ]
+}
