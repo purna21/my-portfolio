@@ -14,8 +14,8 @@ function Header() {
                 </h2>
                 <a className='header_cta' href={myResume} download >Read My Resume</a>
                 <div className="header_social_links">
-                    <a className='header_social_link' href="/">.In</a>
-                    <a className='header_social_link' href="/">.Md</a>
+                    <a className='header_social_link' href="https://www.linkedin.com/in/purnachandra-bandaru" target="_blank">.In</a>
+                    <a className='header_social_link' href="https://medium.com/@mepurnachandra21" target="_blank">.Md</a>
                     <a className='header_social_link' href="/">.Ig</a>
                 </div>
             </div>
