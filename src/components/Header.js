@@ -1,5 +1,6 @@
 import React from 'react'
 import './Header.css'
+import myResume from '../purnachandra_resume.pdf'
 
 function Header() {
     return (
@@ -11,7 +12,7 @@ function Header() {
                     I'm Purnachandra <br />
                     Bandaru
                 </h2>
-                <a className='header_cta' href="/">Read My Resume</a>
+                <a className='header_cta' href={myResume} download >Read My Resume</a>
                 <div className="header_social_links">
                     <a className='header_social_link' href="/">.In</a>
                     <a className='header_social_link' href="/">.Md</a>
